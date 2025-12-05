@@ -1,0 +1,22 @@
+{
+  "name": "binfer",
+  "version": "0.1.0",
+  "description": "Bun-based HuggingFace inference framework with CUDA/WebGPU backends",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts",
+    "build:cuda": "cd cuda && cmake -B build && cmake --build build",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@huggingface/tokenizers": "^0.0.6",
+    "openai": "^6.9.1"
+  }
+}

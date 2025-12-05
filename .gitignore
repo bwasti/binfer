@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build artifacts
+cuda/build/
+cuda/fa3/build/
+*.o
+*.so
+
+# Bun
+bun.lock
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Debug/test files
+debug_*.ts
+test_*.py
+test_*.ts
+trace_*.py
+check_*.py
+compare_*.py
+
+# Config dumps
+*.json
+!package.json
+!tsconfig.json
+
+# Development directories
+bench/
+claude/
+scripts/
+
+# Misc
+.DS_Store
+*.log
