@@ -16,7 +16,7 @@ Currently supports gpt-oss and qwen huggingface models.
 ## Build
 
 ```bash
-git clone --recursive https://github.com/mgoin/binfer.git
+git clone --recursive https://github.com/bwasti/binfer.git
 bun install
 ```
 
