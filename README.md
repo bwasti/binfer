@@ -1,8 +1,10 @@
-# binfer
+# binfer (Bun + infer)
 
-Experimental LLM inference engine in TypeScript and CUDA.
+Experimental Bun-based snappy LLM inference engine in TypeScript and CUDA.
+Currently supports gpt-oss and qwen huggingface models.
 
-Supports gpt-oss and qwen huggingface model formats.
+![Screen Recording 2025-12-10 at 2 12 45 PM](https://github.com/user-attachments/assets/9c4a228f-4751-46d4-b863-b32e71c3b4db)
+
 
 ## Requirements
 
