@@ -15,17 +15,12 @@ Currently supports gpt-oss and qwen huggingface models.
 
 ## Build
 
-First, ensure that all submodules are cloned:
 ```bash
-git submodule update --init --recursive
-```
-
-Then build the CUDA kernels and install:
-```bash
+git clone --recursive https://github.com/mgoin/binfer.git
 bun install
 ```
 
-To rebuild manually: `bun run build:cuda`
+This automatically builds the CUDA kernels. To rebuild manually: `bun run build:cuda`
 
 ## Usage
 
