@@ -1,6 +1,8 @@
 # binfer
 
-LLM inference engine in TypeScript and CUDA.
+Experimental LLM inference engine in TypeScript and CUDA.
+
+Supports gpt-oss and qwen huggingface model formats.
 
 ## Requirements
 
