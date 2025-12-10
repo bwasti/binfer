@@ -76,11 +76,9 @@ curl http://localhost:8000/v1/completions \
 
 ## Supported Models
 
-- **Llama** (2, 3, 3.1, 3.2)
 - **Qwen** (including Qwen3 with QK-norm)
 - **GPT-OSS** (20B, 120B)
-- **Mixtral** (MoE)
-- **DeepSeek**
+- possibly more, I forget
 
 Any HuggingFace model with LLaMA-style architecture.
 
