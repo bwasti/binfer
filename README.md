@@ -15,11 +15,17 @@ Currently supports gpt-oss and qwen huggingface models.
 
 ## Build
 
+First, ensure that all submodules are cloned:
+```bash
+git submodule update --init --recursive
+```
+
+Then build the CUDA kernels and install:
 ```bash
 bun install
 ```
 
-This automatically builds the CUDA kernels. To rebuild manually: `bun run build:cuda`
+To rebuild manually: `bun run build:cuda`
 
 ## Usage
 
