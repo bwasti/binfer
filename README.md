@@ -13,8 +13,9 @@ LLM inference engine in TypeScript and CUDA.
 
 ```bash
 bun install
-cd cuda && mkdir -p build && cd build && cmake .. && make -j
 ```
+
+This automatically builds the CUDA kernels. To rebuild manually: `bun run build:cuda`
 
 ## Usage
 

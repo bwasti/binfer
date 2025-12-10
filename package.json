@@ -7,7 +7,8 @@
   "scripts": {
     "start": "bun run src/index.ts",
     "dev": "bun --watch run src/index.ts",
-    "build:cuda": "cd cuda && cmake -B build && cmake --build build",
+    "build:cuda": "cd cuda && cmake -B build && cmake --build build -j",
+    "postinstall": "bun run build:cuda",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
